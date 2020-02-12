@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Light A Lamp</title>
+    <link rel="stylesheet" href="style.css">
+    <!--cdnjs-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react/16.12.0/umd/react.production.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.11.0/umd/react-dom.production.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
+    <!--end of cdnjs    -->
+  
+</head>
+<body>
+    
+    <div id="app"></div>
+
+<!--empty window.App-->
+    <script>window.App = {};</script>
+ 
+<!--js files   -->
+    <script type="text/babel" src="InputField.js"></script>
+    <script type="text/babel" src="Header.js"></script>
+    <script type="text/babel" src="LampItem.js"></script>
+    <script type="text/babel" src="LampList.js"></script>
+    <script type="text/babel" src="LampApp.js"></script>
+ 
+<!--main code   -->
+    <script type="text/babel">
+        const {LampApp} = window.App;
+        ReactDOM.render(
+            <LampApp />,
+            document.getElementById('app')
+        );
+    </script>
+    
+</body>
+</html>

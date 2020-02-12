@@ -1,0 +1,74 @@
+body, html{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: #222;
+}
+.head{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 25px;
+    border-radius: 30px;
+    border: 0px;
+}
+input:focus{
+    outline: none;
+}
+
+.lamp{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 100px;
+}
+
+.TW{
+    top: 70%;
+    left: 15%;
+    opacity: 30%;
+}
+
+.HK{
+    top: 60%;
+    left: 80%;
+    opacity: 50%;
+}
+
+.CN{
+    top: 15%;
+    left: 30%;
+    opacity: 40%;
+}
+
+.lamp, img{
+    width: 100px;
+}
+
+.lamp div{
+    color:black;
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: fantasy;
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
